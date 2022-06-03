@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+
+		<PackageId>DotNotStandard.UnitTesting.Csla</PackageId>
+		<Version>6.0.0</Version>
+		<Authors>DotNotStandard</Authors>
+		<Product>DotNotStandard.UnitTesting</Product>
+		<Description>Utilities to assist with unit testing of code that uses CSLA business objects</Description>
+		<Copyright>DotNotStandard</Copyright>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageProjectUrl>https://github.com/DotNotStandard/UnitTesting</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/DotNotStandard/UnitTesting</RepositoryUrl>
+		<RepositoryType>Github</RepositoryType>
+		<PackageTags>Testing, Unit Testing, CSLA, DotNotStandard</PackageTags>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Csla" Version="6.0.0" />
+		<PackageReference Include="DotNotStandard.DataAccess" Version="1.0.0" />
+		<PackageReference Include="DotNotStandard.Validation" Version="2.0.0" />
+		<PackageReference Include="DotNotStandard.Validation.Repositories.InMemoryRepository" Version="1.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE" Pack="true" Visible="false" PackagePath="" />
+	</ItemGroup>
+
+</Project>
