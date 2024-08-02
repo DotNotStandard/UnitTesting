@@ -19,7 +19,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Csla" Version="6.0.0" />
+		<PackageReference Include="Csla" Version="8.0.0" />
 		<PackageReference Include="DotNotStandard.DataAccess" Version="1.0.0" />
 		<PackageReference Include="DotNotStandard.Validation" Version="2.0.0" />
 		<PackageReference Include="DotNotStandard.Validation.Repositories.InMemoryRepository" Version="1.0.0" />
